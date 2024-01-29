@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width:100%;
+
+}
+.main .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0,0.5);
+}
+.main .navbar{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: transparent;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.main .navbar .Logo{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    left: 10%;
+   color: aliceblue;
+}
+.main .navbar .Logo:hover{
+    text-decoration: underline;
+    text-underline-position:under ;
+    transition: 0.7s ease;
+}
+.main .navbar .Logo span{
+    color: red;
+}
+.btn1{
+    color: aliceblue;
+    font-weight: 1200;
+}
+.btn2{
+    color: aliceblue;
+    font-weight: 1200;
+    margin-left: 20px;
+    transition: 0.7s ease;
+}
+.btn1:hover{
+color: red;
+transition: 0.7s ease;
+text-decoration: underline;
+text-underline-position: under;
+}
+.btn2:hover{
+    color: red;
+    transition: 0.7s ease;
+    text-decoration: underline;
+    text-underline-position: under;
+    }
+.main .heading{
+ position: absolute;
+ height: auto;
+ width: 100%;
+ top: 50%;
+ transform: translateY(-50%);
+ color: #fafafa;
+ text-align: center;
+ font-size: 20px;
+}
+.main .heading span{
+    color: red;
+}
+.main .navbar .Logo:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    right:-15%;
+    margin: 20px;
+}
+.main .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    text-underline-position: under;
+    border: 2px solid rgb(255, 255, 255,0.5);
+    transition: 0.5s ease-in-out;
+    
+}
+.main .navbar ul li a{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+.main .navbar ul li a:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
